@@ -5,16 +5,16 @@ h1 {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:lightgrey;
-    color:#333
+    background-color: lightgrey;
+    color: #333;
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom:1cm ;
 }
 h2{
-    background-color:lightgrey;
-    color:#333;
+    background-color: lightgrey;
+    color: #333;
     word-spacing: 0.06cm;
 }
 .circle-image {
@@ -48,7 +48,7 @@ h6{
     font-size: 0.53cm;
 }
 footer{
-    color:#333;
+    color: #333;
     background-color: lightgrey;
     text-align: center;
 }
