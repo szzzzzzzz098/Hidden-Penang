@@ -1,11 +1,11 @@
 h1{
   background-color:lightgrey;
-  color:#333
+  color: #333;
 }
 h2{
   text-align:right;
 }
 p{
   text-align:justified;
-  size:2cm
+  size:2cm;
 }
