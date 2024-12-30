@@ -1,0 +1,17 @@
+h1{
+  background-color:lightgrey;
+  color:#333
+}
+h2{
+  margin-top:-55%;
+  text-align:right;
+}
+p{
+  text-align:justified;
+  size:2cm
+}
+footer{
+  color:#333;
+  text-align: center;
+  background-color:lightgrey;
+}
