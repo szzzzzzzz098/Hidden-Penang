@@ -1,4 +1,3 @@
-/* Place your CSS styles in this file */
 header{
     color:#333
 }
@@ -53,11 +52,3 @@ footer{
     background-color: lightgray;
     text-align: center;
 }
-
-  
-
-        function goToSubPage() {
-            // 跳转到子页面
-            window.location.href = "subpage.html";  // 替换为实际的子页面路径
-        }
-</script>
