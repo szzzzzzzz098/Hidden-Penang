@@ -1,14 +1,13 @@
 <link rel="stylesheet" href="styles.css">
-
+<nav>
 h1{
-    
-    background-color: red;
+    background-color: lightgrey;
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
 }
+</nav>
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom:1cm ;
