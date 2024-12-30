@@ -11,3 +11,8 @@ p{
   text-align:justified;
   size:2cm;
 }
+footer{
+    color: #333;
+    background-color: lightgrey;
+    text-align: center;
+}
