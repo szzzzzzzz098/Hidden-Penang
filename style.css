@@ -3,22 +3,22 @@ h1 {
     margin: 0;
     padding: 0;
     background-color:lightgrey;
-    color: #333;
+    color:#333
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom:1cm ;
 }
 h2{
-    background-color:lightgray;
-    color: #333;
+    background-color:lightgrey;
+    color:#333;
     word-spacing: 0.06cm;
 }
 .circle-image {
-    width: 250px; /* Set the specific size for the circular effect */
-    height: 150px; /* Keep the image square */
-    border-radius: 5%; /* Make it circular */
-    object-fit: cover; /* Ensures the content fits inside the circle */
+    width: 250px;
+    height: 150px;
+    border-radius: 5%; 
+    object-fit: cover;
 }
 h3{
     margin-top: -4.5%;
@@ -45,7 +45,7 @@ h6{
     font-size: 0.53cm;
 }
 footer{
-    color: #333;
-    background-color: lightgray;
+    color:#333;
+    background-color: lightgrey;
     text-align: center;
 }
