@@ -1,5 +1,5 @@
-MyWebsite/
-├── index.html
-├── styles.css
-├── images/
-│   ├── oie_transparent.png  <-- Image should be inside "images" folder!
+MyWebsite/  (Root directory)
+├── index.html        <-- Main webpage
+├── styles.css        <-- Your CSS file
+├── images/           <-- Folder for images
+│   ├── oie_transparent.png  <-- Your image file
