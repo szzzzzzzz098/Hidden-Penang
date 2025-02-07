@@ -1,11 +1,11 @@
 /* Prevent the header from stacking on smaller screens */
 @media (max-width: 768px) {
     header {
-        flex-direction: row; /* Ensures items stay in a single row */
+        flex-direction: column; /* Ensures items stay in a single row */
     }
 
     nav ul {
-        flex-direction: row; /* Prevents stacking */
+        flex-direction: column; /* Prevents stacking */
         flex-wrap: nowrap; /* Prevents wrapping */
     }
 }
