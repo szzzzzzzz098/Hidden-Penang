@@ -7,7 +7,6 @@
 
     nav ul {
         flex-direction: column; /* Prevents stacking */
-        gap: 10px;
         flex-wrap: nowrap; /* Prevents wrapping */
     }
 }
