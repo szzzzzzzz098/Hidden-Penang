@@ -2,10 +2,12 @@
 @media (max-width: 768px) {
     header {
         flex-direction: column; /* Ensures items stay in a single row */
+        align-items: center;
     }
 
     nav ul {
         flex-direction: column; /* Prevents stacking */
+        gap: 10px;
         flex-wrap: nowrap; /* Prevents wrapping */
     }
 }
