@@ -4,94 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hidden Penang</title>
-    <!-- Load external CSS styles -->
     <link rel="stylesheet" href="styles.css">
-
-
-<style>
- body {
-    background-image: url('images/oie_transparent.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-}
-
-
-
-    
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 40px;
-            background: rgba(20, 20, 20, 0.8);
-            backdrop-filter: blur(10px);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        nav .logo {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #FFFFFF;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 20px;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #f05454;
-        }
-
-      
-
-       
-
-        
-
-       
-
-        footer {
-            background: #121212;
-            color: #bdbdbd;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 <body>
-    <div class="main-page">
-<nav>
-    <a href="index.html" class="logo" title="Back to the home page">Hidden Penang</a>
-    <ul>
-        <li><a href="subpage1.html">Attractions</a></li>
-        <li><a href="subpage2.html">Cuisine</a></li>
-        <li><a href="subpage3.html">Shopping</a></li>
-        <li><a href="subpage4.html">Hotels</a></li>
-    </ul>
-</nav>
+    <header>
+        <div class="logo">Hidden Penang</div>
+        <nav>
+            <ul>
+                <li><a href="subpage1.html">Attractions</a></li>
+                <li><a href="subpage2.html">Cuisine</a></li>
+                <li><a href="subpage3.html">Shopping</a></li>
+                <li><a href="subpage4.html">Hotels</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
 
-        <footer>
-            &copy; 2024 Hidden Penang. All rights reserved.
-        </footer>
+    <section class="hero">
+        <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/6/2024/12/05193723/penang-day-trips-best-day-trip-from-penang-malaysia-1600x875.jpg" alt="Penang View">
+    </section>
+
+    <section class="content">
+        <div class="text">
+            <h1>Introduction</h1>
+            <p>Penang, known as the "Pearl of the Orient," is a stunning island that combines rich culture, beautiful beaches, and delicious food. Its capital, George Town, is a UNESCO World Heritage Site filled with colonial architecture, vibrant street art, and diverse cultures.</p>
+            <p>Whether you're exploring its lush natural landscapes, relaxing on pristine beaches, or experiencing its lively local culture, Penang promises an unforgettable adventure.</p>
+            <div class="buttons">
+                <button class="play-btn">▶ Play Video</button>
+                <button class="learn-btn">Learn More</button>
+            </div>
+            <!-- YouTube Video Embed (Hidden Initially) -->
+    <div id="youtube-video-container" style="display: none;">
+        <iframe id="youtube-video" width="640" height="360" 
+            src="https://youtu.be/8pDO2vBnehc?si=ts7Gbr4OSRPSwg05" 
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Hidden Penang. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
