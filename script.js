@@ -1,7 +1,4 @@
-    document.querySelector(".logo-link").addEventListener("click", function(event) {
-        console.log("Logo clicked! Redirecting...");
-    });
-document.querySelector(".play-btn").addEventListener("click", function() {
+ document.querySelector(".play-btn").addEventListener("click", function() {
             window.open("https://youtu.be/8pDO2vBnehc?si=ts7Gbr4OSRPSwg05");
   alert("Playing Video...");
 });
