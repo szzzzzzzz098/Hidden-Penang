@@ -1,4 +1,39 @@
 <link rel="stylesheet" href="subpage3.css">
+/* Basic styling for navigation */
+        nav {
+            background: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-link {
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #007BFF;
+        }
+
+        /* Active navigation link (bold and bigger) */
+        .nav-link.active {
+            font-size: 20px;
+            font-weight: bold;
+            color: #150554;
+        }
 h1{
   background-color:lightgrey;
   color:#333
