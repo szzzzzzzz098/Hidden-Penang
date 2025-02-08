@@ -65,6 +65,42 @@ nav ul li a {
     color: #000;
     font-weight: 500;
 }
+/* Basic styling for navigation */
+        nav {
+            background: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-link {
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #007BFF;
+        }
+
+        /* Active navigation link (bold and bigger) */
+        .nav-link.active {
+            font-size: 20px;
+            font-weight: bold;
+            color: #FF4500;
+        }
+
 
 .social-icons a {
     color: #000;
