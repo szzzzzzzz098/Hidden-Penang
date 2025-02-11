@@ -34,20 +34,49 @@
             font-weight: bold;
             color: #150554;
         }
-h1{
-  background-color: lightgrey;
-  color: #333;
-}
-h2{
-  text-align:justified;
+.card {
+    display: flex;
+    background: white;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-p{
-  text-align:justified;
-  size:2cm;
+/* Card Image */
+.card-image {
+    position: relative;
+    width: 40%;
 }
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.card-content h2 {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.card-content a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 footer{
-    color: #333;
-    background-color: lightgrey;
     text-align: center;
 }
