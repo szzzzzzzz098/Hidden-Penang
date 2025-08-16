@@ -45,6 +45,12 @@ p{
   text-align:justified;
   size:2cm
 }
+.container {
+  width: 90%;       /* takes up 90% of screen width */
+  max-width: 1100px; /* but never larger than 1100px on big screens */
+  margin: auto;      /* centers the content */
+}
 footer{
   text-align: center;
 }
+
