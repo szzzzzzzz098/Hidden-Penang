@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="subpage2.css">
+@media (max-width: 768px){
 /* Basic styling for navigation */
         nav {
             background: white;
@@ -52,5 +53,6 @@ p{
 }
 footer{
   text-align: center;
+}
 }
 
